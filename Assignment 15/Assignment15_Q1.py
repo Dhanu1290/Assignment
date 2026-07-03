@@ -1,0 +1,4 @@
+# 1. Square of each number using map()
+numbers = [1, 2, 3, 4, 5]
+squares = list(map(lambda x: x**2, numbers))
+print("Squares:", squares)
